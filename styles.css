@@ -3,7 +3,11 @@ body {
 	line-height: 1.5;
 }
 h1 {
-  font-weight: 400;
+  font-weight: 200;
+  color: forestgreen;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 5em;
 }
 header{
     float: left;
@@ -21,18 +25,22 @@ header{
 }
 #menu li p {
 	margin-top: 0;
-	font-weight: bold;
+    font-weight: bold;
+    color: forestgreen;
+    font-size: 1.5em;
 }
 main {
     width: 60%;
     float: right;
 }
 #diaNoche {
-	width: 100px;
-	height: 30px;
+	width: 150px;
+	height: 100px;
 	text-align: center;
 	font-weight: bold;
-	margin-bottom: 1em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: goldenrod;
 }
 footer{
     margin: 0 auto;
@@ -42,6 +50,8 @@ footer{
 }
 footer > p {
     display: inline-block;
+    color: goldenrod;
+    font-style: italic;
 }
 #email{
     margin-left: 20px;
