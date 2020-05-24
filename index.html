@@ -1,0 +1,65 @@
+<div></div>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Proyecto con seguimiento de Git</title>
+</head>
+
+<body>
+    <header>
+        <ul id="menu">
+            <li>
+              <button id="diaNoche">Día / Noche</button>
+            </li>
+            <li>
+              <button id="menosTexto">-</button>
+              <button id="normalTexto">A</button>
+              <button id="masTexto">+</button>
+            </li>
+            <li>
+              <p>Contraste</p>
+              <input type="range" id="contraste" min="0" max="100" value="100">
+            </li>
+            <li>
+              <p>Tipografía</p>
+              <label>
+                <input type="radio" name="tipo" value="cl" id="tipo_0">
+                Clásica</label>
+              <br>
+              <label>
+                <input type="radio" name="tipo" value="mo" checked="checked" id="tipo_1">
+                Moderna</label>
+              <br>
+            </li>
+            <li>
+              <p>Interlínea</p>
+              <select id="inter">
+                <option value="1">1</option>
+                <option value="1.2">1.2</option>
+                <option value="1.5" selected="selected">normal</option>
+                <option value="1.7">1.7</option>
+                <option value="2">2</option>
+              </select>
+            </li>
+            <li>
+              <p> Estilo títulos</p>
+              <label>
+                <input type="checkbox" name="titulo" value="n" id="titulo-1">
+                negrita</label>
+              <br>
+              <label>
+                <input type="checkbox" name="titulo" value="c" id="titulo-2">
+                cursiva</label>
+              <label> <br>
+                <input type="checkbox" name="titulo" value="c" id="titulo-3">
+                mayúsculas</label>
+              <br>
+              <br>
+              <button id="titulos">Aplicar</button>
+              </li>
+            </ul>
+    </header>
+</body>
+</html>
