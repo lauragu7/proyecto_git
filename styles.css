@@ -1,0 +1,44 @@
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+h1 {
+  font-weight: 400;
+}
+#menu {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+#menu li {
+	float: left;
+	list-style-type: none;
+	margin: 1em;
+}
+#menu li p {
+	margin-top: 0;
+	font-weight: bold;
+}
+#menu, #texto {
+	clear: left;
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+#diaNoche {
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+footer{
+    margin: 0 auto;
+    display: table;
+}
+footer > p {
+    display: inline-block;
+}
+#email{
+    margin-left: 20px;
+}
