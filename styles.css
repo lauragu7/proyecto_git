@@ -50,3 +50,10 @@ footer > p {
 #email{
     margin-left: 20px;
 }
+main{
+    width: 50%;
+    display: table;
+    display: inline-block;
+    margin-left: 3em;
+
+}
